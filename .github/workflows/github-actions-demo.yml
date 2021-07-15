@@ -16,6 +16,9 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - name: Change Directory
-        run: cd hoge
+        run: |
+          pwd
+          cd hoge
+          pwd
       - name: execute pwd
         run: pwd
