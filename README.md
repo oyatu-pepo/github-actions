@@ -1,1 +1,1 @@
-Github Actionsの練習です！
+Github Actionsの練習です!!!
