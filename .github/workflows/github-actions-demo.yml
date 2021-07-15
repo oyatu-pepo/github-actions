@@ -22,3 +22,6 @@ jobs:
           pwd
       - name: execute pwd
         run: pwd
+        working-directory: ./hoge
+      - name: execute pwd2
+        run: pwd
